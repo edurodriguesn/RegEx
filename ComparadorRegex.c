@@ -35,7 +35,7 @@ int main(int argc, char **argv)
     }
 
     while (getline(&linha, &tamanho_linha, arquivo) > 0)
-        compara(argv, linha);
+        comparador(argv, linha);
 
     if (linha)
         free(linha);
